@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-electron",
+  "version": "0.1.0",
+  "description": "reproduce a glitch of nuxt-2.15.0",
+  "author": "Tomotaka Sakuma",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tmtk75/nuxt-2-15-glitch-reproduce"
+  },
+  "scripts": {
+    "build": "tsc -p ./electron && NODE_ENV=electron nuxt-ts build",
+    "start": "DEVTOOLS=on electron .",
+    "clean": "rm -rf dist .nuxt"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15",
+    "@nuxt/typescript-build": "^2",
+    "@nuxt/typescript-runtime": "^2",
+    "@nuxtjs/composition-api": "^0.20",
+    "electron": "11.2.3",
+    "nuxt": "2.15.0",
+    "sass": "^1.32.8",
+    "ts-loader": "^8",
+    "ts-node": "^9",
+    "typescript": "^4"
+  }
+}
