@@ -10,9 +10,7 @@ const config = <NuxtConfig>{
     mode: "hash",
   },
   build: {
-    extend(config) {
-      config.output!.publicPath = "./_nuxt/";
-    },
+    publicPath: "./_nuxt/",
   },
   generate: { dir: "dist" },
 };
