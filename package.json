@@ -19,7 +19,7 @@
     "@nuxt/typescript-runtime": "^2",
     "@nuxtjs/composition-api": "^0.20",
     "electron": "11.2.3",
-    "nuxt": "2.15.0",
+    "nuxt": "2.15.3",
     "sass": "^1.32.8",
     "ts-loader": "^8",
     "ts-node": "^9",
